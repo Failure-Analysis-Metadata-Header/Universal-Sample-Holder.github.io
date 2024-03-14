@@ -15,12 +15,12 @@ Currently, in the state of the art workflow at the FA, each measurement tool has
 # Coordinate Transformation using the Alignment Marks
 
 In this section, the calculus of the coordinate transformation between an exemplary tool A and tool B, using the Alignment Marks of the Universal Sample Holder, is explained.
-In general every transformation in a cartesian coordinate system with orthogonal axes from, e.g. a point $p_{tool A}$ to $p_{tool B}$ can be represented as chained rotations and translations relative to the initial (global) or local coordinate frame of point $p_{tool A}$: 
+In general every transformation in a cartesian coordinate system with orthogonal axes from, e.g. a point $p_{tool\_A}$ to $p_{tool\_B}$ can be represented as chained rotations and translations relative to the initial (global) or local coordinate frame of point $p_{tool\_A}$: 
 
-$p_{tool B} = R(\theta)p_{tool A} + v$, 
+$p_{tool\_B} = R(\theta)p_{tool\_A} + v$, 
 
 where $R(θ)$ is the rotation matrix with the angle $θ$ around one of the three axes $x$, $y$ and $z$ and $v$ denotes a translational displacement.
-The coordinate transformation of a point on the sample attached to the Universal Sample Holder can be simplified to a 2D-transformation. This is because the sample is aligned to the ring of the Universal Sample Holder, where the Alignment Marks are micro milled. Furthermore, the holder is fixed to the stage of tool A and tool B, such that the orientaion of it's ring is co-incident to the horizontal plane of the cartesian coordinate systems of both tools, e.g. the $XY$-plane. In this case the $z$-coordinate becomes idle and every displacement of $p_{tool A}$ to $p_{tool B}$ can be described with a single rotation and translation where $R(\theta)$ is now a 2-dimensional matrix $\in \mathbb{R}^{2 \times 2}$ and denotes now the rotation matrix around the z-axis with angle θ.
+The coordinate transformation of a point on the sample attached to the Universal Sample Holder can be simplified to a 2D-transformation. This is because the sample is aligned to the ring of the Universal Sample Holder, where the Alignment Marks are micro milled. Furthermore, the holder is fixed to the stage of tool A and tool B, such that the orientaion of it's ring is co-incident to the horizontal plane of the cartesian coordinate systems of both tools, e.g. the $XY$-plane. In this case the $z$-coordinate becomes idle and every displacement of $p_{tool\_A}$ to $p_{tool\_B}$ can be described with a single rotation and translation where $R(\theta)$ is now a 2-dimensional matrix $\in \mathbb{R}^{2 \times 2}$ and denotes now the rotation matrix around the z-axis with angle θ.
 The vector $v$ is the translational displacement in the $XY$ - plane. 
 
 To perfrom this transformation, one need to find the transformation matrix $R(\theta)$ and translation vector $v$. These can be derived with the help of the Alignment Marks of the Universal Sample Holder. In particular, we consider the transformation between the Alignment Marks from tool A to tool B: 
