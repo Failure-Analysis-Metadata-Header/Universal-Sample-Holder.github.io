@@ -1,3 +1,9 @@
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/latest?tex-mml-chtml.js"
+  integrity="sha384-9aTcDcunqsBtGtNcWJbaJc5VMO5+uf+xAdPm3R+7+MqTfzu+LlWl5i/w6w8kM6I5"
+  crossorigin="anonymous">
+</script>
+
 # Universal Sample Holder
 
 In semiconductor failure analysis (FA), multiple analysis steps using different measurement methods across a possibly large chain of tools are typically carried out to identify the failure root cause. In order to enable a higher degree of automation, the machines used for the different analysis steps must be able to communicate with each other through a standardized interface. Such a standardized interface is delivered by the FA Standardized File Header (Link to github page) which provides a standard schema for the storage of metadata associated with analysis images or other measurement data types. 
@@ -15,7 +21,7 @@ Currently, in the state of the art workflow at the FA, each measurement tool has
 # Coordinate Transformation using the Alignment Marks
 
 In this section, the calculus of the coordinate transformation between an exemplary tool A and tool B, using the alignment marks of the Universal Sample Holder, is explained.
-In general, every transformation in a cartesian coordinate system with orthogonal axes from, e.g. a point $p_{tool\_A}$ to $p_{tool\_B}$, can be represented as chained rotations and translations relative to the initial (global) or local coordinate frame of point $p_{tool\_A}$: 
+In general, every transformation in a cartesian coordinate system with orthogonal axes from, e.g. a point \(p_{tool\_A}\) to \(p_{tool\_B}\), can be represented as chained rotations and translations relative to the initial (global) or local coordinate frame of point \(p_{tool\_A}\): 
 
 $p_{tool\_B} = R(\theta)p_{tool\_A} + v$, 
 
