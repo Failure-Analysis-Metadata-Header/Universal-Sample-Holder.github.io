@@ -30,7 +30,7 @@ Currently, in the state of the art workflow at the FA, each measurement tool has
 # Coordinate Transformation using the Alignment Marks
 
 In this section, the calculus of the coordinate transformation between an exemplary tool A and tool B, using the alignment marks of the Universal Sample Holder, is explained.
-In general, every transformation in a cartesian coordinate system with orthogonal axes from, e.g. a point $p_{tool\_A}$ to $p_{tool\_B}$, can be represented as chained rotations and translations relative to the initial (global) or local coordinate frame of point $p_{tool\_A}$: 
+In general, every transformation in a cartesian coordinate system with orthogonal axes from, e.g. a point \\(p_{tool\_A}\\) to \\(p_{tool\_B}\\), can be represented as chained rotations and translations relative to the initial (global) or local coordinate frame of point \\(p_{tool\_A}\\): 
 
 $p_{tool\_B} = R(\theta)p_{tool\_A} + v$, 
 
