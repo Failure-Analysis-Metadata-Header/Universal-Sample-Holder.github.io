@@ -1,8 +1,17 @@
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/latest?tex-mml-chtml.js"
-  integrity="sha384-9aTcDcunqsBtGtNcWJbaJc5VMO5+uf+xAdPm3R+7+MqTfzu+LlWl5i/w6w8kM6I5"
-  crossorigin="anonymous">
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
 </script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
 
 # Universal Sample Holder
 
