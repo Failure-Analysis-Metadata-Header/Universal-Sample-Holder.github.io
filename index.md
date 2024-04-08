@@ -30,7 +30,7 @@ Currently, in the state of the art workflow at the FA, each measurement tool has
 # Coordinate Transformation using the Alignment Marks
 
 In this section, the calculus of the coordinate transformation between an exemplary tool A and tool B, using the alignment marks of the Universal Sample Holder, is explained.
-In general, every transformation in a cartesian coordinate system with orthogonal axes from, e.g. a point \(p_{tool\_A}\) to \(p_{tool\_B}\), can be represented as chained rotations and translations relative to the initial (global) or local coordinate frame of point \(p_{tool\_A}\): 
+In general, every transformation in a cartesian coordinate system with orthogonal axes from, e.g. a point $p_{tool\_A}$ to $p_{tool\_B}$, can be represented as chained rotations and translations relative to the initial (global) or local coordinate frame of point $p_{tool\_A}$: 
 
 $p_{tool\_B} = R(\theta)p_{tool\_A} + v$, 
 
@@ -54,11 +54,17 @@ $$\begin{bmatrix} mark1_{tool A\_x} \\\ mark1_{tool A\_y} \end{bmatrix} = \begin
 \end{bmatrix}, $$
 
 We see from the system of equations, to get the rotation matrix and translation vector, we need to find the six unknowns ($r_{11}$, $r_{12}$, $r_{21}$, $r_{22}$, $v_{x}$, $v_{y}$). A system of equation requires six equations to unambiguously solve after six unknowns. The usage of three alignment marks milled at the ring of the holder delivers a uniquely solvable system of equations with six equations and six unknowns: 
+
 $$Eq1: mark1_{tool B\_x} = r_{11} mark1_{tool A\_x} + r_{12} mark1_{tool A\_y} + v_{x},$$
+
 $$Eq2: mark1_{tool B\_y} = r_{21} mark1_{tool A\_x} + r_{22} mark1_{tool A\_y} + v_{y},$$
+
 $$Eq3: mark2_{tool B\_x} = r_{11} mark2_{tool A\_x} + r_{12} mark2_{tool A\_y} + v_{x},$$
+
 $$Eq4: mark2_{tool B\_y} = r_{21} mark2_{tool A\_x} + r_{22} mark2_{tool A\_y} + v_{y},$$
+
 $$Eq5: mark3_{tool B\_x} = r_{11} mark3_{tool A\_x} + r_{12} mark3_{tool A\_y} + v_{x},$$
+
 $$Eq6: mark3_{tool B\_y} = r_{21} mark1_{tool A\_x} + r_{22} mark3_{tool A\_y} + v_{y},$$
 
 The solution of this system of equations delivers the six unknowns ($r_{11}$, $r_{12}$, $r_{21}$, $r_{22}$, $v_{x}$, $v_{y}$)
