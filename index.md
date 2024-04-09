@@ -24,7 +24,7 @@ Currently, in the state of the art workflow at the FA, each measurement tool has
   <img src="images/Sample_Holder_3D.png" />
 </div>
 
-[View 3D Model](3D-files/View-3D-model.html)
+### View the 3D model
 
 <script src="https://embed.github.com/view/3d/M-Galic/Failure-Analysis-Metadata-Header/Universal-Sample-Holder.github.io/main/3D-files/Universal_Sample_Holder_3D.stl"></script>
 
