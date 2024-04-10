@@ -26,7 +26,7 @@ Currently, in the state of the art workflow at the FA, each measurement tool has
 
 ### View the 3D model
 
-<script src="https://embed.github.com/view/3d/M-Galic/Failure-Analysis-Metadata-Header/Universal-Sample-Holder.github.io/main/3D-files/Universal_Sample_Holder.STL"></script>
+<script src="https://embed.github.com/view/3d/Marko Galic/Failure-Analysis-Metadata-Header/Universal-Sample-Holder.github.io/main/3D-files/Universal_Sample_Holder.STL"></script>
 
 # Coordinate Transformation using the Alignment Marks
 
